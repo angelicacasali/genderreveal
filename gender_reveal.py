@@ -64,8 +64,5 @@ def main():
         # Display gender reveal message
         st.markdown("<h1 style='text-align: center; color: #F8C8DC;'>💖 É uma MENINA! 💖<br>💖 It's a GIRL! 💖</h1>", unsafe_allow_html=True)
 
-        # Celebration message
-        st.write("Can't wait to meet my little love! 💕 / A familia mal pode esperar para conhecer meu amorzinho! 💕")
-
 if __name__ == "__main__":
     main()
