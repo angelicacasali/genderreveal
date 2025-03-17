@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw
 # Function to create a placeholder ultrasound image
 def load_ultrasound():
     try:
-        return Image.open("ultrasound.jpg")  # Replace with the correct filename if different
+        return Image.open("PXL_20250227_210253940.jpg")  # Replace with the correct filename if different
     except Exception as e:
         st.error(f"Erro ao carregar a imagem: {e}")
         return None
