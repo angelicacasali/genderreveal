@@ -35,7 +35,7 @@ def main():
     st.write("Você sabia que a família Mattos está crescendo? / Did you know the Mattos family is growing?")
 
     # Slowly load the sonogram like PowerPoint effect
-    st.image(create_placeholder_ultrasound(), caption="Meet my little love! 💕", use_container_width=True)
+    st.image(load_ultrasound(), caption="Meet my little love! 💕", use_container_width=True)
     time.sleep(2)
 
     # Add a baby emoji text
